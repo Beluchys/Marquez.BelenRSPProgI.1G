@@ -30,16 +30,6 @@ void sortMarca_Peso(eVehiculo vehiculo[], int tam){
 	}
 }
 
-void mostrarListado(eVehiculo lista, int tam)
-{
-
-    printf("   %d      %10s    Kg  %9.2f     %d \n",
-           lista.id,
-           lista.marca,
-            lista.peso,
-           lista.tipo
-          );
-}
 
 int main()
 {
@@ -52,6 +42,7 @@ int main()
 
 
 sortMarca_Peso(vehiculo, 4);
+
 
 printf("\n\nMostrar lista de Vehiculos según el Criterio: Marca y peso\n \n"
 			"    ID       Marca        tipo      Peso\n");
